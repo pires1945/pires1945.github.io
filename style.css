@@ -1,3 +1,31 @@
-body {
-    background-color: grey;
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:active, a:link{
+    color: white;
+    
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav{
+    background-color: hsl(0, 0%, 23%);
+}
+
