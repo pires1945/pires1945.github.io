@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0px;
 }
 
@@ -15,13 +15,12 @@ a:active, a:link{
 section {
     float: left;
     background-color: hsl(0, 0%, 35%);
-    height: 650px;
-    z-index: 1;
+    width: 20%;
 }
 
 nav{
     padding-top: 10px;
-    z-index: 3;
+    height: 900px;
 }
 
 ul{
@@ -35,4 +34,36 @@ ul{
     background-color: hsl(0, 0%, 15%);
     margin: 8px;
     padding: 10px 100px 10px 10px;
+    border: 2px solid hsla(49, 40%, 41%, 0.849);
+    border-radius: 10px;
+    text-align: center;
+ }
+
+
+
+ article{
+    background-color: hsl(0, 8%, 91%);
+    height: 900px;
+    padding: 30px;
+    width: 100%;
+ }
+
+ footer {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    background-color: hsl(0, 0%, 15%);
+    padding: 20px 0px 20px 0px;
+    position: fixed;
+    bottom: 0%;
+ }
+
+ .texto{
+    text-align: justify;
+    font-size: 22px;
+    text-indent: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
  }
