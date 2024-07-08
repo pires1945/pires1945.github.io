@@ -11,7 +11,8 @@ body{
 }
 
 aside{
-    background-color: hsl(0, 0%, 27%);
+    /* background-color: hsl(0, 0%, 27%); */
+    background-image: linear-gradient(to right, rgb(27, 26, 26), hsl(0, 1%, 72%));
     float: left;
     width: 20%;
 }
@@ -20,11 +21,13 @@ ul{
     list-style-type: none;
     font-size: 25px;
     font-weight: bold;
+    width: 90%;
+    margin-top: 30px;
 }
 
 li{
     background-color: hsl(0, 0%, 15%);
-    margin: 8px 0 8px 0;
+    margin: 30px 0 8px 0;
     padding: 10px 100px 10px 10px;
     border-top: 2px solid hsla(49, 40%, 41%, 0.849);
     border-bottom: 2px solid hsla(49, 35%, 26%, 0.87);
@@ -38,8 +41,29 @@ aside a {
     text-decoration: none;
 }
 
+.inicial{
+    margin: 10px 0 0 30px;
+}
+
+.inicial h2{
+    color: white;
+}
+
 a:active a:link{
     color: white;
+}
+
+.dados{
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.dados h3{
+    color: white;
+}
+
+.dados p {
+    color: hsl(49, 56%, 61%);
 }
 
 article{
@@ -47,6 +71,7 @@ article{
     width: 75%;
     float: right;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 .clear{
