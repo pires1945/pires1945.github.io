@@ -1,56 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Felipe Pires</title>
-    </head>
-    <body>
-        <div class="container">
-            <header></header>
-            <aside>
-                <div class="inicial">
-                    <h2>
-                        Um pouco sobre mim
-                    </h2>
-                </div>
-                <ul>
-                    <li><a href="index.html" class="sobre"> Sobre mim</a></li>
-                    <li><a href="formacao.html" class="formacao">Formação</a></li>
-                    <li><a href="index2.html" class="portifolio">Portifólio</a></li>
-                    <li><a href="" class="contato">Contato</a></li>
-                </ul>
-                <div class="dados">
-                    <h3>
-                        Felipe Pires
-                    </h3>
-                    <p>
-                        Disciplina de Ferramentas de desenvolvimento Web
-                    </p>
-                    <p>
-                        RU: 3529507
-                    </p>
-                </div>
-            </aside>
-            <article>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Vel orci porta non pulvinar neque. Sed velit dignissim sodales ut eu sem integer vitae. Nec nam aliquam sem et tortor. 
-                        Purus ut faucibus pulvinar elementum. Ut lectus arcu bibendum at varius vel pharetra vel.
-                        Lobortis scelerisque fermentum dui faucibus in. 
-                    </p> 
-                        
-                    <p>
-                        Risus pretium quam vulputate dignissim suspendisse. Dictum varius duis at consectetur. Pellentesque nec nam aliquam sem et tortor consequat id. Praesent tristique magna sit amet purus. 
-                        Consequat ac felis donec et odio pellentesque diam volutpat commodo. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. 
-                        Rutrum quisque non tellus orci ac. Vitae elementum curabitur vitae nunc sed velit. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. 
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant.
-                    </p>
-            </article>
-        </div>
-        <footer class="clear">
-            <h4>Aqui o texto para o footer - Porto Alegre</h4>
-        </footer>
-    </body>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Felipe Pires</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!--Este container é onde contem toda a página-->
+    <div class="container">
+        <header>
+            <!--O header eu usei para criar o menu de navegação usando um table-->
+            <nav>
+                <table>
+                    <tr>
+                        <th><a href="index.html" class="sobre"> Sobre mim</a></th>
+                        <th><a href="formacao.html" class="formacao">Formação</a></th>
+                        <th><a href="portifolio.html" class="portifolio">Portifólio</a></th>
+                        <th><a href="contato.html" class="contato">Contato</a></th>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <!--O conteúdo da página vai estar dentro da classe conteúdo com ajuda da tag article usando classes para compor o estilo-->
+            <div class="conteudo">
+                <article>
+                    <h1>Um pouco sobre mim...</h1>
+                    <div class="texto">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Vel orci porta non pulvinar neque. Sed velit dignissim sodales ut eu sem integer vitae. Nec nam aliquam sem et tortor. 
+                            Purus ut faucibus pulvinar elementum. Ut lectus arcu bibendum at varius vel pharetra vel.
+                            Lobortis scelerisque fermentum dui faucibus in. 
+                            Risus pretium quam vulputate dignissim suspendisse. Dictum varius duis at consectetur. Pellentesque nec nam aliquam sem et tortor consequat id. Praesent tristique magna sit amet purus. 
+                            Consequat ac felis donec et odio pellentesque diam volutpat commodo. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. 
+                            Rutrum quisque non tellus orci ac. Vitae elementum curabitur vitae nunc sed velit. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. 
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant.
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+            <!--O footer eu deixei bem simples fixo na parte de baixo da página-->
+            <footer class="clear">
+                <h4>Felipe Pires - Centro Universitário Uninter - Porto Alegre</h4>
+            </footer>
+    </div>
+</body>
 </html>

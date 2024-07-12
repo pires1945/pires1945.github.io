@@ -1,79 +1,86 @@
+/* apliquei alguns estilos e formações direto no body para servir para toda a página */
 body{
-    background-color: hsl(0, 1%, 72%);
+    background-color: rgb(167, 163, 163);
     font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin-top: 0;
 }
 
 .container{
     margin: 0 auto;
-    width: 100%;
+    width: 1080px;
 }
 
-aside{
-    /* background-color: hsl(0, 0%, 27%); */
-    background-image: linear-gradient(to right, rgb(27, 26, 26), hsl(0, 1%, 72%));
-    float: left;
-    width: 20%;
+article{
+    background-color: hsl(60, 3%, 82%);
+    margin-top: 20px;
+    border: 2px solid;
+    border-color: rgb(168, 168, 103);
+    width: 100%;
+    
+}
+
+article p {
+    font-size: 18px;
+}
+
+.texto{
+    margin: 30px 30px 50px 30px;
+    text-align: center;
+}
+
+h1{
+    margin: 30px 30px 50px 30px;
+    border-bottom: 2px dashed;
+    border-color: rgb(168, 168, 103);
+    font-weight: bolder;
+
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid rgb(168, 168, 103);
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    margin: 0 20px 0 20px;
+}
+
+a:hover{
+    color: rgb(168, 168, 103);
+}
+
+table{
+    display: inline;
 }
 
 ul{
     list-style-type: none;
-    font-size: 25px;
-    font-weight: bold;
-    width: 90%;
-    margin-top: 30px;
+    margin-left: -30px;
 }
 
-li{
-    background-color: hsl(0, 0%, 15%);
-    margin: 30px 0 8px 0;
-    padding: 10px 100px 10px 10px;
-    border-top: 2px solid hsla(49, 40%, 41%, 0.849);
-    border-bottom: 2px solid hsla(49, 35%, 26%, 0.87);
-    border-left: none;
-    box-shadow: 10px;
-    border-radius: 20px 0px 0 20px;
+aside{
+    float: left;
+    width: 150px;
 }
 
-aside a {
-    color: white;
-    text-decoration: none;
+aside li{
+    color: rgb(250, 248, 248);
+    font-style: bold;
 }
 
-.inicial{
-    margin: 10px 0 0 30px;
-}
-
-.inicial h2{
-    color: white;
-}
-
-a:active a:link{
-    color: white;
-}
-
-.dados{
-    padding: 15px;
-    margin-left: 30px;
-}
-
-.dados h3{
-    color: white;
-}
-
-.dados p {
-    color: hsl(49, 56%, 61%);
-}
-
-article{
-    padding: 10px;
-    width: 75%;
-    float: right;
-    font-size: 18px;
-    margin-top: 50px;
-}
-
+/* Usei o clear para limpar os floats indesejados*/
 .clear{
     clear: both;
 }
@@ -83,5 +90,9 @@ footer{
     text-align: center;
     bottom: 0%;
     position: fixed;
-    width: 100%;
+    width: 1080px;
+}
+
+.formulario{
+    margin-left: 200px;
 }
